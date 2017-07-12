@@ -1,0 +1,1006 @@
+# ##############################################################################
+#
+# 	Simple Project Management and TODO-List application for Wordpress Blogs.
+# 	Copyright (C) 2014 Chrome Runner
+#
+# 	This program is free software: you can redistribute it and/or modify
+# 	it under the terms of the GNU General Public License as published by
+# 	the Free Software Foundation, either version 3 of the License, or
+# 	(at your option) any later version.
+#
+# 	This program is distributed in the hope that it will be useful,
+# 	but WITHOUT ANY WARRANTY; without even the implied warranty of
+# 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# 	GNU General Public License for more details.
+#
+# 	You should have received a copy of the GNU General Public License
+# 	along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+# ##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: cwx-project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-07 10:49+0100\n"
+"PO-Revision-Date: 2014-06-07 10:50+0100\n"
+"Last-Translator: Chrome Runner <chrome@cwx-designs.com>\n"
+"Language-Team: \n"
+"Language: Template\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ./..\n"
+
+#: ../cwx-project-tmpl-config.php:30
+#: ../cwx-project-help.php:36
+msgid "Settings"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:32
+#: ../cwx-project.php:701
+#: ../cwx-project-tmpl-widget.php:561
+msgid "Close"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:34
+msgid "Apply Changes"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:46
+msgid "Categories"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:51
+msgid "Statuses"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:56
+#: ../cwx-project-help.php:228
+msgid "Post Types"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:61
+#: ../cwx-project-help.php:231
+msgid "Priorities"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:66
+#: ../cwx-project-help.php:234
+msgid "Permissions"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:85
+msgid "Category Name"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:86
+msgid "Move Tasks to Category (also see the note below)"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:86
+msgid "Move Tasks *"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:87
+msgid "Proposed Category (check to accept)"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:88
+msgid "Delete Category (you may use Move Tasks)"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:113
+msgid "No categories yet!"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:117
+msgid "New Category:"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:118
+msgid "New Category"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:119
+msgid "Add Category"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:121
+msgid "* Tasks of the Category will be moved to the Category entered here.<br />* If you opt to delete the Category, you can use the move function to move Tasks to the entered Category before deletion.<br />* If you enter a Category name that does not yet exist, the Category will be created and Tasks will be moved to the new Category."
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:130
+msgid "Status Name"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:131
+msgid "Change the Status of Tasks to entered Status"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:131
+msgid "New Task Status *"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:132
+msgid "Proposed Status (check to accept)"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:133
+msgid "Delete Status"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:158
+msgid "No statuses yet!"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:162
+msgid "New Status:"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:163
+msgid "New Status"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:164
+msgid "Add Status"
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:166
+msgid "* Changes Tasks with current Status to the entered Status.<br />* If you opt to delete the Status, you can use the function to assign a new Status to Tasks before deletion.<br />* If you enter a Status name that does not yet exist, the Status will be created and Tasks will be assigned to the new Status."
+msgstr ""
+
+#: ../cwx-project-tmpl-config.php:173
+msgid "Check the Post Types you want a Task Metabox for. The Metabox will appear on Pages where you edit posts of the post types you select here."
+msgstr ""
+
+#: ../cwx-project-dashboard.php:155
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: ../cwx-project-dashboard.php:281
+#: ../cwx-project-dashboard.php:310
+#: ../cwx-project-core.php:515
+#: ../cwx-project-tmpl-widget.php:582
+msgid "Task"
+msgstr ""
+
+#: ../cwx-project-tmpl-metabox.php:35
+#, php-format
+msgid "Create a Task for this %s in Project:"
+msgstr ""
+
+#: ../cwx-project-tmpl-metabox.php:40
+msgid "Do not create a Task"
+msgstr ""
+
+#: ../cwx-project-tmpl-metabox.php:42
+msgid "Create new Project"
+msgstr ""
+
+#: ../cwx-project-tmpl-metabox.php:44
+msgid "Available Projects"
+msgstr ""
+
+#: ../cwx-project-tmpl-metabox.php:50
+msgid "Title of the new Project"
+msgstr ""
+
+#: ../cwx-project-tmpl-metabox.php:51
+#: ../cwx-project-tmpl-widget.php:98
+msgid "Project Title"
+msgstr ""
+
+#: ../cwx-project-tmpl-metabox.php:63
+msgid "Create as Private"
+msgstr ""
+
+#: ../cwx-project-tmpl-metabox.php:73
+msgid "Assign myself to the Task"
+msgstr ""
+
+#: ../cwx-project.php:308
+msgid "1 (low)"
+msgstr ""
+
+#: ../cwx-project.php:309
+msgid "2"
+msgstr ""
+
+#: ../cwx-project.php:310
+msgid "3"
+msgstr ""
+
+#: ../cwx-project.php:311
+msgid "4"
+msgstr ""
+
+#: ../cwx-project.php:312
+msgid "5 (medium)"
+msgstr ""
+
+#: ../cwx-project.php:313
+msgid "6"
+msgstr ""
+
+#: ../cwx-project.php:314
+msgid "7"
+msgstr ""
+
+#: ../cwx-project.php:315
+msgid "8"
+msgstr ""
+
+#: ../cwx-project.php:316
+msgid "9 (high)"
+msgstr ""
+
+#: ../cwx-project.php:322
+msgid "Use Dashboard Widget"
+msgstr ""
+
+#: ../cwx-project.php:323
+msgid "Add Projects"
+msgstr ""
+
+#: ../cwx-project.php:324
+msgid "Edit Own Projects"
+msgstr ""
+
+#: ../cwx-project.php:325
+msgid "Edit Others Projects"
+msgstr ""
+
+#: ../cwx-project.php:326
+msgid "Trash Own Projects"
+msgstr ""
+
+#: ../cwx-project.php:327
+msgid "Trash Others Projects"
+msgstr ""
+
+#: ../cwx-project.php:328
+msgid "Add Tasks"
+msgstr ""
+
+#: ../cwx-project.php:329
+msgid "Edit Own Tasks"
+msgstr ""
+
+#: ../cwx-project.php:330
+msgid "Edit Others Tasks"
+msgstr ""
+
+#: ../cwx-project.php:331
+msgid "Edit Own Assigned Tasks"
+msgstr ""
+
+#: ../cwx-project.php:332
+msgid "Edit Tasks Assigned to Others"
+msgstr ""
+
+#: ../cwx-project.php:333
+msgid "Trash Own Tasks"
+msgstr ""
+
+#: ../cwx-project.php:334
+msgid "Trash Others Tasks"
+msgstr ""
+
+#: ../cwx-project.php:335
+msgid "Self-Assign Tasks"
+msgstr ""
+
+#: ../cwx-project.php:336
+msgid "Edit Own Assignment"
+msgstr ""
+
+#: ../cwx-project.php:337
+msgid "Edit Others Assignment"
+msgstr ""
+
+#: ../cwx-project.php:338
+msgid "Edit Due Date"
+msgstr ""
+
+#: ../cwx-project.php:339
+msgid "Edit Own Statuses"
+msgstr ""
+
+#: ../cwx-project.php:340
+msgid "Edit Others Statuses"
+msgstr ""
+
+#: ../cwx-project.php:341
+msgid "Edit Own Categories"
+msgstr ""
+
+#: ../cwx-project.php:342
+msgid "Edit Others Categories"
+msgstr ""
+
+#: ../cwx-project.php:343
+msgid "Access Trash Can"
+msgstr ""
+
+#: ../cwx-project.php:344
+msgid "Configuration"
+msgstr ""
+
+#: ../cwx-project.php:345
+msgid "Configure Categories"
+msgstr ""
+
+#: ../cwx-project.php:346
+msgid "Configure Statuses"
+msgstr ""
+
+#: ../cwx-project.php:347
+msgid "Configure Task Box"
+msgstr ""
+
+#: ../cwx-project.php:348
+msgid "Configure Priority Colors"
+msgstr ""
+
+#: ../cwx-project.php:349
+msgid "Configure Permissions"
+msgstr ""
+
+#: ../cwx-project.php:616
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: ../cwx-project.php:693
+msgid "There are unsaved changes in CWX Project Settings! You will lose all changes if you leave this page now."
+msgstr ""
+
+#: ../cwx-project.php:694
+msgid "There are unsaved changes in CWX Project! You will lose these changes if you leave the page now."
+msgstr ""
+
+#: ../cwx-project.php:695
+msgid "Confirm Deletion"
+msgstr ""
+
+#: ../cwx-project.php:696
+msgid "Move the project to trash?"
+msgstr ""
+
+#: ../cwx-project.php:697
+msgid "Move the task to trash?"
+msgstr ""
+
+#: ../cwx-project.php:698
+#: ../cwx-project-tmpl-widget.php:181
+msgid "Yes"
+msgstr ""
+
+#: ../cwx-project.php:699
+#: ../cwx-project-tmpl-widget.php:182
+msgid "No"
+msgstr ""
+
+#: ../cwx-project.php:700
+#: ../cwx-project-tmpl-widget.php:117
+msgid "Cancel"
+msgstr ""
+
+#: ../cwx-project.php:702
+msgid "Progress: %s%"
+msgstr ""
+
+#: ../cwx-project.php:703
+#, php-format
+msgid "Assigned to: %s"
+msgstr ""
+
+#: ../cwx-project.php:704
+#, php-format
+msgid "Due Date: %s"
+msgstr ""
+
+#: ../cwx-project.php:801
+#, php-format
+msgid ""
+"\n"
+"\tcloseText: \"Done\",\n"
+"\tprevText: \"Prev\",\n"
+"\tnextText: \"Next\",\n"
+"\tcurrentText: \"Today\",\n"
+"\tmonthNames: [\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"],\n"
+"\tmonthNamesShort: [\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\"],\n"
+"\tdayNames: [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"],\n"
+"\tdayNamesShort: [\"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\"],\n"
+"\tdayNamesMin: [\"Su\",\"Mo\",\"Tu\",\"We\",\"Th\",\"Fr\",\"Sa\"],\n"
+"\tweekHeader: \"Wk\",\n"
+"\tdateFormat: \"%s\",\n"
+"\tfirstDay: %s,\n"
+"\tisRTL: false,\n"
+"\tshowMonthAfterYear: false,\n"
+"\tyearSuffix: \"\"\n"
+msgstr ""
+
+#: ../cwx-project-help.php:34
+msgid "Overview"
+msgstr ""
+
+#: ../cwx-project-help.php:35
+#: ../cwx-project-tmpl-widget.php:528
+msgid "Trash Can"
+msgstr ""
+
+#: ../cwx-project-help.php:37
+#: ../cwx-project-tmpl-widget.php:45
+msgid "Projects"
+msgstr ""
+
+#: ../cwx-project-help.php:38
+msgid "Tasks"
+msgstr ""
+
+#: ../cwx-project-help.php:110
+msgid "Welcome to the CWX Project Plugin! It helps you organize your daily work by providing Task or ToDo lists, grouped by Project folders."
+msgstr ""
+
+#: ../cwx-project-help.php:111
+msgid "After the first activation of CWX Project, there will be no Projects in the list, so, the first thing you want to do is add a Project. There is a Plus-button on the bottom of the widget that opens a form that lets you add a new Project. (Please note: If you check the Private box, only you can see and use the Project, otherwise all permitted user can see and or use the Project. Read more about Projects under the Projects tab.)"
+msgstr ""
+
+#: ../cwx-project-help.php:112
+msgid "Another button on the bottom of the widget is the Trash Can, which opens the Trash Can page of CWX Project. There you can restore previously trashed items or delete them permanently. Note, this button is only available to users that have permission to access the Trash Can."
+msgstr ""
+
+#: ../cwx-project-help.php:113
+msgid "The last button on the bottom of the widget is the Cog, which opens the settings for CWX Project. There you can manage categories, statuses, user permissions and other stuff. Note, this button is only available to users that have permission to access the settings page."
+msgstr ""
+
+#: ../cwx-project-help.php:129
+msgid "CWX Project organizes Tasks in Project folders, which are the top-level items. Project folders only have two properties, their titles and a status of public or private. However, Project folders have a progress bar, showing the total progress of contained Tasks. Contained Tasks can be opened by clicking on the Project row or by putting the focus on the Project row, then hitting the Enter-key. On the right, Project folders offer up to three action buttons, depending on user permissions."
+msgstr ""
+
+#: ../cwx-project-help.php:131
+#: ../cwx-project-help.php:164
+msgid "Internal Statuses / Legend"
+msgstr ""
+
+#: ../cwx-project-help.php:133
+#: ../cwx-project-help.php:166
+msgid "Italic Title"
+msgstr ""
+
+#: ../cwx-project-help.php:134
+msgid "An italic title means the project is private to <em>you</em>."
+msgstr ""
+
+#: ../cwx-project-help.php:136
+msgid "Project Actions"
+msgstr ""
+
+#: ../cwx-project-help.php:138
+#, php-format
+msgid "Add Task (%s)"
+msgstr ""
+
+#: ../cwx-project-help.php:139
+msgid "The Add Task button allows you to create new Tasks for the associated Project. The new Task is not publicly visible until it has been updated/saved for the first time."
+msgstr ""
+
+#: ../cwx-project-help.php:141
+#, php-format
+msgid "Edit Project (%s)"
+msgstr ""
+
+#: ../cwx-project-help.php:142
+msgid "The Edit Project button switches the Project row into edit mode, so you can alter the title of the project. Any click outside of the row, or if the input focus leaves the row, changes will be submitted and edit mode will be left. If the Esc-key is hit, changes will be undone and edit mode will be left."
+msgstr ""
+
+#: ../cwx-project-help.php:144
+#, php-format
+msgid "Trash Project (%s)"
+msgstr ""
+
+#: ../cwx-project-help.php:145
+msgid "With the Trash button, Projects can be moved to the Trash Can without permanently deleting them and after a confirmation. Projects can be restored from the Trash Can page of CWX Project, but only if permitted."
+msgstr ""
+
+#: ../cwx-project-help.php:162
+msgid "Tasks in CWX Project are organized in Project folders. Besides a title and priority on its main row, a Task has several other properties that can be used optionally. These properties can be opened by clicking on the Tasks row or by putting the focus on the Task row, then hitting the Enter-key. On the right of a Task row there are two action buttons, depending on user permissions."
+msgstr ""
+
+#: ../cwx-project-help.php:167
+msgid "An italic title means, <em>you</em> are the the creator or an assignee of the Task."
+msgstr ""
+
+#: ../cwx-project-help.php:168
+msgid "Bold Title"
+msgstr ""
+
+#: ../cwx-project-help.php:169
+msgid "A bold title means, the Task is not yet assigned to anyone."
+msgstr ""
+
+#: ../cwx-project-help.php:170
+msgid "Underlined Title"
+msgstr ""
+
+#: ../cwx-project-help.php:171
+msgid "An underlined title means, the Task is not yet published and <em>you</em> need to make changes and save it."
+msgstr ""
+
+#: ../cwx-project-help.php:173
+msgid "Task Actions"
+msgstr ""
+
+#: ../cwx-project-help.php:175
+#, php-format
+msgid "Edit Task (%s)"
+msgstr ""
+
+#: ../cwx-project-help.php:176
+msgid "The Edit Task button switches the Task row into edit mode, so you can alter the priority and title of the Task. Any click outside of the row, or if the input focus leaves the row, changes will be submitted and edit mode will be left. If the Esc-key is hit, changes will be undone and edit mode will be left."
+msgstr ""
+
+#: ../cwx-project-help.php:178
+#, php-format
+msgid "Trash Task (%s)"
+msgstr ""
+
+#: ../cwx-project-help.php:179
+msgid "With the Trash button, Task can be moved to the Trash Can without permanently deleting them and after a confirmation. Trashed Tasks can be restored from the Trash Can page of CWX Project, but only if permitted."
+msgstr ""
+
+#: ../cwx-project-help.php:181
+#: ../cwx-project-help.php:265
+msgid "Task Properties"
+msgstr ""
+
+#: ../cwx-project-help.php:183
+msgid "By clicking on a Task row, or hitting the Enter-key on a focussed row, the Task will reveal its properties. Depending on your permissions, you can edit the properties. While most of these properties are self-explanatory, some need an explanation &hellip;"
+msgstr ""
+
+#: ../cwx-project-help.php:185
+#: ../cwx-project-help.php:269
+#: ../cwx-project-core.php:522
+#: ../cwx-project-tmpl-widget.php:58
+#: ../cwx-project-tmpl-widget.php:59
+msgid "Assignee"
+msgstr ""
+
+#: ../cwx-project-help.php:186
+#: ../cwx-project-help.php:270
+msgid "CWX Project automatically detects which users can be Assignees of Tasks. For more comfort in choosing a user, you can type any number of characters in the input field and pick a user from the list that appears. If you enter a users name that cannot be an assignee, no user will be assigned."
+msgstr ""
+
+#: ../cwx-project-help.php:188
+#: ../cwx-project-help.php:225
+#: ../cwx-project-help.php:272
+msgid "Statuses and Categories"
+msgstr ""
+
+#: ../cwx-project-help.php:189
+#: ../cwx-project-help.php:273
+msgid "In Status and Category fields you can enter any Status or Category name or pick one from the list that appears. If you enter a name that does not yet exists, the Status or Category will be created as a proposal in the system. Such proposals are available temporarily until an administrator (or a user with permission to manage Statuses/Categories) accepts the proposed item or deletes it."
+msgstr ""
+
+#: ../cwx-project-help.php:200
+msgid "The CWX Project Widget does not allow to permanently delete any items. Instead, these items will be moved to the Trash Can. This page lists all items that are currently in the Trash Can. The Trash Can offers you to Restore or permanently Delete the items."
+msgstr ""
+
+#: ../cwx-project-help.php:201
+msgid "Please note, that all Projects are listed here, trashed or not, that contain trashed Tasks. This is to let you know to which Project trashed Task belong to. Projects that have not been trashed, do not have a checkbox and can neither be deleted nor restored."
+msgstr ""
+
+#: ../cwx-project-help.php:203
+msgid "Restoring"
+msgstr ""
+
+#: ../cwx-project-help.php:204
+msgid "To restore one or more items, set a checkmark on the item(s) you want to restore. If you choose to restore a Task of a Project that is trashed, the Project will be restored automatically as well. When you have checked the desired items, navigate to the bottom of the list and select Restore Selected from the select box and hit the Submit button."
+msgstr ""
+
+#: ../cwx-project-help.php:206
+msgid "Deleting"
+msgstr ""
+
+#: ../cwx-project-help.php:207
+msgid "To delete one or more items, set a checkmark on the item(s) you want to delete. If you choose to delete a Project, all of its Tasks will be deleted automatically as well. When you have checked the desired items, navigate to the bottom of the list and select Delete Selected from the select box and hit the Submit button. Please note that there will be no further confimation dialog and the items will be deleted permanently. Be careful!"
+msgstr ""
+
+#: ../cwx-project-help.php:221
+msgid "Settings for CWX Project offer you to manage Task Statuses, Task Categories and User Permissions (based on Wordpress Roles), customize the colors of Task Priorities and to set which type of posts show the CWX Project - Task box on their edit pages. If you get the option to change these settings depends on your current role and permissions."
+msgstr ""
+
+#: ../cwx-project-help.php:222
+msgid "All of these settings are organized in Tabs. Depending on your device and/or window size, some of these Tabs may be hidden. In that case you can scroll the Tabs with the arrow buttons next to them. You can always use the key combination [shift] + [ctrl] + [left]/[right] to navigate the Tabs."
+msgstr ""
+
+#: ../cwx-project-help.php:223
+msgid "After you have made any changes, you can hit the Apply Changes button at any time you want, no matter on which tab you are - all changes on all tabs will be saved and applied immediately."
+msgstr ""
+
+#: ../cwx-project-help.php:226
+msgid "You can create new Task Statuses and Categories on the Settings page, but usually, you or other users create them right in the Tasks. In the latter case, they are stored as proposals and you will see a checkbox in the column that shows a bulb. You may set a checkmark on the proposed item to accept it. On the column with the trash can, you can mark items you want to delete (permanently). Finally, on the column Move Tasks, you can move Tasks assigned to the Status or Category to another Status or Category, which is especially useful if you choose to delete the item."
+msgstr ""
+
+#: ../cwx-project-help.php:229
+msgid "The Post Types tab gives you options to choose which types of posts you want the CWX Project Task box to show on. This box allows you and other users (with permission) to associate the Post with a Task."
+msgstr ""
+
+#: ../cwx-project-help.php:232
+msgid "On the Priorities tab, you can change the colors for priorities. Simply click on the Select Color buttons and pick a new color on the color picker."
+msgstr ""
+
+#: ../cwx-project-help.php:235
+msgid "The Permissions tab lists all roles currently available in the WordPress installation as well as all capabilities (permissions) available for CWX Project. To change permissions for a certain role, click on the role name, then check the permissions you want for that role and unckeck those you do not want. You can use the keyboard to navigate through roles with [alt] + [page up]/[page down]."
+msgstr ""
+
+#: ../cwx-project-help.php:257
+#, php-format
+msgid "You may attach a CWX Project Task to this %1$s. If you do so, you can alter all the Tasks properties as you normally would in the main CWX Project Widget. The first thing you need to do is create a new Task for this %1$s and save the %1$s. Then, after this page has reloaded, the properties of the Task will be shown and some are editable, depending on your permissions."
+msgstr ""
+
+#: ../cwx-project-help.php:260
+msgid "Creating a new Task"
+msgstr ""
+
+#: ../cwx-project-help.php:262
+#, php-format
+msgid "To create a new Task for this %1$s, navigate to the CWX Project - Task meta box. There you choose a Project or to create a new Project (if your permissions allow you to). In the latter case, you may also choose to create a private Project (no one else but you can see it). Finally, you can assign yourself to the Task (again, if your permissions allow that). When you are ready, save the %1$s."
+msgstr ""
+
+#: ../cwx-project-help.php:267
+msgid "Depending on your permissions, you can edit the properties. While most of these properties are self-explanatory, some need an explanation &hellip;"
+msgstr ""
+
+#: ../cwx-project-core.php:101
+#: ../cwx-project-core.php:145
+#: ../cwx-project-core.php:150
+#: ../cwx-project-core.php:222
+#: ../cwx-project-core.php:227
+#: ../cwx-project-core.php:413
+#: ../cwx-project-core.php:418
+#: ../cwx-project-core.php:466
+#: ../cwx-project-core.php:471
+#: ../cwx-project-core.php:571
+#: ../cwx-project-core.php:624
+#: ../cwx-project-core.php:629
+#: ../cwx-project-core.php:667
+#: ../cwx-project-core.php:673
+#: ../cwx-project-core.php:870
+#: ../cwx-project-core.php:917
+#: ../cwx-project-core.php:950
+#: ../cwx-project-core.php:953
+#: ../cwx-project-core.php:1129
+msgid "Invalid request."
+msgstr ""
+
+#: ../cwx-project-core.php:157
+#: ../cwx-project-core.php:259
+msgid "Attempt to modify an unknown task! Update failed."
+msgstr ""
+
+#: ../cwx-project-core.php:168
+msgid "The tasks title must not be empty! Update failed."
+msgstr ""
+
+#: ../cwx-project-core.php:199
+#, php-format
+msgid "The task '%s' has been updated."
+msgstr ""
+
+#: ../cwx-project-core.php:233
+msgid "The task has been updated."
+msgstr ""
+
+#: ../cwx-project-core.php:425
+msgid "Attempt to move an unknown task to trash!"
+msgstr ""
+
+#: ../cwx-project-core.php:479
+#: ../cwx-project-core.php:491
+msgid "New Task"
+msgstr ""
+
+#: ../cwx-project-core.php:493
+msgid "A new task has been created."
+msgstr ""
+
+#: ../cwx-project-core.php:516
+msgid "Priority"
+msgstr ""
+
+#: ../cwx-project-core.php:519
+msgid "Created by"
+msgstr ""
+
+#: ../cwx-project-core.php:520
+msgid "Created on"
+msgstr ""
+
+#: ../cwx-project-core.php:521
+msgid "Updated on"
+msgstr ""
+
+#: ../cwx-project-core.php:523
+msgid "Due Date"
+msgstr ""
+
+#: ../cwx-project-core.php:524
+msgid "Progress"
+msgstr ""
+
+#: ../cwx-project-core.php:525
+msgid "Time Spent"
+msgstr ""
+
+#: ../cwx-project-core.php:526
+#: ../cwx-project-tmpl-widget.php:63
+#: ../cwx-project-tmpl-widget.php:64
+msgid "Status"
+msgstr ""
+
+#: ../cwx-project-core.php:527
+#: ../cwx-project-tmpl-widget.php:67
+#: ../cwx-project-tmpl-widget.php:68
+msgid "Category"
+msgstr ""
+
+#: ../cwx-project-core.php:528
+msgid "Description"
+msgstr ""
+
+#: ../cwx-project-core.php:530
+#, php-format
+msgid "Date Format: %s"
+msgstr ""
+
+#: ../cwx-project-core.php:531
+msgid "Progress for this task in percent"
+msgstr ""
+
+#: ../cwx-project-core.php:532
+msgid "Days : Hours : Minutes"
+msgstr ""
+
+#: ../cwx-project-core.php:636
+msgid "Attempt to move an unknown project to trash!"
+msgstr ""
+
+#: ../cwx-project-core.php:700
+msgid "You must enter a title for the new project!"
+msgstr ""
+
+#: ../cwx-project-core.php:722
+#, php-format
+msgid "The new project '%s' has been created."
+msgstr ""
+
+#: ../cwx-project-core.php:736
+msgid "Attempt to modify an unknown project! Update failed."
+msgstr ""
+
+#: ../cwx-project-core.php:747
+msgid "The projects title must not be empty! Update failed."
+msgstr ""
+
+#: ../cwx-project-core.php:766
+#, php-format
+msgid "The project '%s' has been updated."
+msgstr ""
+
+#: ../cwx-project-core.php:788
+#: ../cwx-project-tmpl-widget.php:134
+#: ../cwx-project-tmpl-widget.php:574
+msgid "Project"
+msgstr ""
+
+#: ../cwx-project-core.php:789
+#: ../cwx-project-tmpl-widget.php:84
+#: ../cwx-project-tmpl-widget.php:544
+msgid "Loading"
+msgstr ""
+
+#: ../cwx-project-core.php:792
+msgid "No Tasks found"
+msgstr ""
+
+#: ../cwx-project-core.php:793
+msgid "Add new Tasks or adjust the filters."
+msgstr ""
+
+#: ../cwx-project-core.php:1059
+#, php-format
+msgid "Invalid color value for priority %d! Please use HTML colors (#rgb, #rrggbb)."
+msgstr ""
+
+#: ../cwx-project-core.php:1125
+msgid "Permission denied!"
+msgstr ""
+
+#: ../cwx-project-core.php:1133
+msgid "Invalid meta type!"
+msgstr ""
+
+#: ../cwx-project-core.php:1145
+msgid "Name cannot be empty!"
+msgstr ""
+
+#: ../cwx-project-core.php:1411
+msgid "Insufficient permissions!"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:34
+msgid "This Widget requires JavaScript"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:35
+msgid "Please enable JavaScript in your browser."
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:40
+msgid "Filters"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:41
+msgid "Apply Filters"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:47
+msgid "All"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:48
+msgid "Public"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:49
+#: ../cwx-project-tmpl-widget.php:112
+msgid "Private"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:54
+msgid "Search"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:55
+msgid "Task Title"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:79
+msgid "No Projects found"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:80
+msgid "Add new Projects or adjust the filters."
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:90
+msgid "New Project"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:97
+msgid "Project Title:"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:110
+msgid "Make the project private"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:116
+msgid "Create Project"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:142
+#: ../cwx-project-tmpl-widget.php:145
+msgid "Trash &hellip;"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:152
+#: ../cwx-project-tmpl-widget.php:155
+msgid "Settings &hellip;"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:169
+msgid "Confirm Operation"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:172
+msgid "Do you want to trash the Item?"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:174
+msgid "This is not a permanent deletion!"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:177
+msgid "Do not ask again."
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:223
+#: ../cwx-project-tmpl-widget.php:224
+#: ../cwx-project-tmpl-widget.php:225
+#: ../cwx-project-tmpl-widget.php:291
+#: ../cwx-project-tmpl-widget.php:292
+msgid "Disabled"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:234
+msgid "Edit Project"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:237
+msgid "Trash Project"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:240
+msgid "Add  New Task to this Project"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:248
+#, php-format
+msgid "&#13;Progress: %01.2f%%"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:299
+msgid "Edit Task"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:302
+msgid "Trash Task"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:309
+#, php-format
+msgid "Progress: %d%%"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:312
+msgid "Assigned to: "
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:314
+msgid "Due Date: "
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:368
+#: ../cwx-project-tmpl-widget.php:373
+#: ../cwx-project-tmpl-widget.php:447
+msgid "No one"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:374
+msgid "Myself"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:378
+#: ../cwx-project-tmpl-widget.php:445
+msgid "Not set"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:451
+msgid "No description available."
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:540
+msgid "The Trash Can is empty!"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:552
+msgid "- Select Action -"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:553
+msgid "Restore Selected"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:554
+msgid "Delete Selected"
+msgstr ""
+
+#: ../cwx-project-tmpl-widget.php:558
+msgid "Submit"
+msgstr ""
+
